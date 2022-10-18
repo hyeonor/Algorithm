@@ -1,4 +1,4 @@
-package Lv1._2.약수의_합;
+package Lv1._2_약수의_합;
 
 public class Solution2 {
 
