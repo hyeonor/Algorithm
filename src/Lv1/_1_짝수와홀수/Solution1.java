@@ -1,4 +1,4 @@
-package Lv1._1.짝수와홀수;
+package Lv1._1_짝수와홀수;
 
 public class Solution1 {
 
