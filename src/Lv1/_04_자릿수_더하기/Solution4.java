@@ -1,4 +1,4 @@
-package Lv1._4_자릿수_더하기;
+package Lv1._04_자릿수_더하기;
 
 public class Solution4 {
 
