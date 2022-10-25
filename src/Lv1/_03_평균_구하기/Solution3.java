@@ -1,4 +1,4 @@
-package Lv1._3_평균_구하기;
+package Lv1._03_평균_구하기;
 
 public class Solution3 {
 
