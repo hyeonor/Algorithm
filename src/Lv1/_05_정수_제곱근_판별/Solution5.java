@@ -1,4 +1,4 @@
-package Lv1._5_정수_제곱근_판별;
+package Lv1._05_정수_제곱근_판별;
 
 public class Solution5 {
 
