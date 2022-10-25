@@ -1,4 +1,4 @@
-package Lv1._9_정수_내림차순으로_배치하기;
+package Lv1._09_정수_내림차순으로_배치하기;
 
 import java.util.ArrayList;
 import java.util.Comparator;
