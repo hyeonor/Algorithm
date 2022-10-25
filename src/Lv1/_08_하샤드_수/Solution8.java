@@ -1,4 +1,4 @@
-package Lv1._8_하샤드_수;
+package Lv1._08_하샤드_수;
 
 public class Solution8 {
 
