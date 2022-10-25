@@ -1,4 +1,4 @@
-package Lv1._6_자연수_뒤집어_배열로_만들기;
+package Lv1._06_자연수_뒤집어_배열로_만들기;
 
 import java.util.Arrays;
 
