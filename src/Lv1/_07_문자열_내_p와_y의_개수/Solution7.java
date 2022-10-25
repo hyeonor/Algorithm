@@ -1,4 +1,4 @@
-package Lv1._7_문자열_내_p와_y의_개수;
+package Lv1._07_문자열_내_p와_y의_개수;
 
 public class Solution7 {
 
