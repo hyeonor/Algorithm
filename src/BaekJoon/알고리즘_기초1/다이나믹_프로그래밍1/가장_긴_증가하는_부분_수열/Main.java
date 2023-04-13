@@ -3,31 +3,37 @@ package BaekJoon.알고리즘_기초1.다이나믹_프로그래밍1.가장_긴_�
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Main {
+    static int n;
+    static int[] arr;
+    static int[] dp;
+
     public static void main(String[] args) throws IOException {//  11053번
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int n = Integer.parseInt(br.readLine());
+        n = Integer.parseInt(br.readLine());
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int[] arr = new int[n];
-        int[] dp = new int[n];
+
+        init(st);
+        LIS();
+
+        System.out.println(Arrays.stream(dp).max().getAsInt());
+    }
+
+    private static void init(StringTokenizer st) {
+        arr = new int[n];
+        dp = new int[n];
 
         for (int i = 0; i < n; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
             dp[i] = 1;
         }
-
-        LIS(n, arr, dp);
-
-        System.out.println(Arrays.stream(dp).max().getAsInt());
-
     }
 
-    private static void LIS(int n, int[] arr, int[] dp) {
+    private static void LIS() {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i; j++) {
                 if (arr[i] > arr[j]) {
